@@ -17,7 +17,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <Hero>
       <Card
         name="ADRIEL MIÑO"
-        desc="Soy creativo y minimalista. Intento crear soluciones si no las puedo encontrar. Me gustan las artes en general, pero mis favoritas son la música y la programación.
+        desc="-EN CONSTRUCCIÓN-
+        Soy creativo y minimalista. Intento crear soluciones si no las puedo encontrar. Me gustan las artes en general, pero mis favoritas son la música y la programación.
         Bienvenidos a mi portfolio!"
         imgUrl={profImg}
       >
