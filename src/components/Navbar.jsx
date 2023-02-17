@@ -35,7 +35,7 @@ export default function Navbar(props) {
             <a href={props.link2} className="nav-menu-link">Proyectos</a>
           </li>
           <li className="nav-menu-item">
-            <a className="nav-menu-link">Mas sobre mi</a>
+            <a href={props.link3} className="nav-menu-link">Mas sobre mi</a>
           </li>
           <li className="nav-menu-item">
             <a href={props.link4} className="nav-menu-link">Contacto</a>

@@ -36,6 +36,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Grid items={Projects} />
     </Scaffold>
 
+    <Scaffold id="more-info" title="MAS SOBRE MI">
+
+    Asi es, dije que la programación es un arte y puedo demostrarlo.
+    Pero en principio quiero mostrar algo sobre mi vínculo con la música...Aquí van imágenes (...)
+    </Scaffold>
+
     <Scaffold id="ctt" title="CONTACTO">
       <Grid items={Social} />
     </Scaffold>
