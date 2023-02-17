@@ -24,7 +24,9 @@ export default function Navbar(props) {
         </button>
 
         <ul
-          className={`${!clicked ? "nav-menu" : "nav-menu nav-menu_visible"}`}
+          className={`${!clicked ? "nav-menu"
+            : "nav-menu nav-menu_visible"}`}
+            onClick={hambClick}
         >
           <li className="nav-menu-item">
             <a href={props.home} className="nav-menu-link">Home</a>
