@@ -15,9 +15,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
   <Navbar title="ADRIEL"
     home="#"
-    projects="#projects"
-    moreinfo="#more-info"
-    ctt="#ctt"
+    link2="#projects"
+    link3="#more-info"
+    link4="#ctt"
+    lastBtn="#https://drive.google.com/file/d/1Yn6DRmrvu1zjo-cM-NAfAYm7yyAcLFBV/view?usp=sharing"
     />
     <Hero>
       <Card id="home"
@@ -35,7 +36,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Grid items={Projects} />
     </Scaffold>
 
-    <Scaffold id="contact" title="CONTACTO">
+    <Scaffold id="ctt" title="CONTACTO">
       <Grid items={Social} />
     </Scaffold>
   </React.StrictMode>

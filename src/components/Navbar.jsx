@@ -32,16 +32,16 @@ export default function Navbar(props) {
             <a href={props.home} className="nav-menu-link">Home</a>
           </li>
           <li className="nav-menu-item">
-            <a href={props.projects} className="nav-menu-link">Proyectos</a>
+            <a href={props.link2} className="nav-menu-link">Proyectos</a>
           </li>
           <li className="nav-menu-item">
             <a className="nav-menu-link">Mas sobre mi</a>
           </li>
           <li className="nav-menu-item">
-            <a href={props.contact} className="nav-menu-link">Contacto</a>
+            <a href={props.link4} className="nav-menu-link">Contacto</a>
           </li>
           <li className="nav-menu-item">
-            <a href="https://drive.google.com/file/d/1Yn6DRmrvu1zjo-cM-NAfAYm7yyAcLFBV/view?usp=sharing" className="nav-menu-link nav-menu-link_active" target="_blank">MI CV</a>
+            <a href={props.lastBtn} className="nav-menu-link nav-menu-link_active" target="_blank">MI CV</a>
           </li>
         </ul>
       </Nav>
