@@ -38,7 +38,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
 
     <Scaffold id="more-info" title="MAS SOBRE MI">
 
-    Asi es, dije que la programación es un arte y puedo demostrarlo.
+    Asi es, dije que considero a la programación como un arte, y puedo demostrarlo.
     Pero en principio quiero mostrar algo sobre mi vínculo con la música...Aquí van imágenes (...)
     </Scaffold>
 
