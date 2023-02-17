@@ -33,10 +33,10 @@ export default function Navbar(props) {
             <a className="nav-menu-link">Proyectos</a>
           </li>
           <li className="nav-menu-item">
-            <a className="nav-menu-link">Contacto</a>
+            <a className="nav-menu-link">Mas sobre mi</a>
           </li>
           <li className="nav-menu-item">
-            <a className="nav-menu-link">Mas sobre mi</a>
+            <a className="nav-menu-link">Contacto</a>
           </li>
           <li className="nav-menu-item">
             <a href="https://drive.google.com/file/d/1Yn6DRmrvu1zjo-cM-NAfAYm7yyAcLFBV/view?usp=sharing" className="nav-menu-link nav-menu-link_active" target="_blank">MI CV</a>
