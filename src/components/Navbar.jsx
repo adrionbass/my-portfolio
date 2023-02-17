@@ -35,7 +35,7 @@ export default function Navbar(props) {
           <li className="nav-menu-item">
             <a className="nav-menu-link">Mas sobre mi</a>
           </li>
-          <li className="nav-menu-item">
+          <li className="nav-menu-item"></li>
             <a className="nav-menu-link">Contacto</a>
           </li>
           <li className="nav-menu-item">
