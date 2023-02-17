@@ -295,5 +295,6 @@ Error generating stack: `+i.message+`
   .nav-toggle:focus:not(:focus.visible) {
     outline: none;
   }
-`;fo.createRoot(document.getElementById("root")).render(wr(Fr.StrictMode,{children:[D(i0,{title:"ADRIEL"}),D(Im,{children:D(Vm,{name:"ADRIEL MIÑO",desc:`Soy creativo y minimalista. Intento crear soluciones si no las puedo encontrar. Me gustan las artes en general, pero mis favoritas son la música y la programación.
+`;fo.createRoot(document.getElementById("root")).render(wr(Fr.StrictMode,{children:[D(i0,{title:"ADRIEL"}),D(Im,{children:D(Vm,{name:"ADRIEL MIÑO",desc:`-EN CONSTRUCCIÓN-
+        Soy creativo y minimalista. Intento crear soluciones si no las puedo encontrar. Me gustan las artes en general, pero mis favoritas son la música y la programación.
         Bienvenidos a mi portfolio!`,imgUrl:Qm,children:D(gr,{items:Ym})})}),D(ql,{title:"PROYECTOS",children:D(gr,{items:r0})}),D(ql,{title:"CONTACTO",children:D(gr,{items:Xm})})]}));
