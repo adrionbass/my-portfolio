@@ -23,7 +23,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Card id="home"
         name="ADRIEL MIÑO"
         desc="~EN CONSTRUCCIÓN~ ... 
-        Soy creativo y minimalista. Intento crear soluciones si no las puedo encontrar. Me gustan las artes en general, pero mis favoritas son la música y la programación.
+        Me gusta todo lo que tenga que ver con lo creativo, por ejemplo, las artes en general. Pero mis favoritas son la música y la programación.
         Bienvenidos a mi portfolio!"
         imgUrl={profImg}
       >

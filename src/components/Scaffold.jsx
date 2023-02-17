@@ -34,8 +34,8 @@ const Section = styled.section`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  text-align: left;
-  margin: 0 0 20px 0;
+  ${'' /* text-align: left; */}
+  margin-bottom: 20px;
 
   img {
     border-radius: 5px;

@@ -4,9 +4,10 @@ import Scaffold from "./Scaffold";
 export default function Card(props) {
   return (
     <Row>
-      <div className="col">
+    <img src={props.imgUrl} alt={props.name} className="img-perf" />
+      {/* <div className="col">
         <img src={props.imgUrl} alt={props.name} className="img-perf" />
-      </div>
+      </div> */}
       <Scaffold title="ADRIEL MIÑO" subtitle="Front-end dev" info={props.desc}>
         {props.children}
       </Scaffold>
