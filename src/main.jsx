@@ -13,11 +13,16 @@ import Navbar from "./components/Navbar";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-  <Navbar title="ADRIEL" />
+  <Navbar title="ADRIEL"
+    home="#"
+    projects="#projects"
+    moreinfo="#more-info"
+    ctt="#ctt"
+    />
     <Hero>
-      <Card
+      <Card id="home"
         name="ADRIEL MIÑO"
-        desc="-EN CONSTRUCCIÓN-
+        desc="~EN CONSTRUCCIÓN~ ... 
         Soy creativo y minimalista. Intento crear soluciones si no las puedo encontrar. Me gustan las artes en general, pero mis favoritas son la música y la programación.
         Bienvenidos a mi portfolio!"
         imgUrl={profImg}
@@ -26,11 +31,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       </Card>
     </Hero>
 
-    <Scaffold title="PROYECTOS">
+    <Scaffold id="projects" title="PROYECTOS">
       <Grid items={Projects} />
     </Scaffold>
 
-    <Scaffold title="CONTACTO">
+    <Scaffold id="contact" title="CONTACTO">
       <Grid items={Social} />
     </Scaffold>
   </React.StrictMode>

@@ -19,7 +19,7 @@ export default function Scaffold(props) {
     },
   ];
   return (
-    <Section>
+    <Section id={props.id}>
       {props.title ? <h2>{props.title}</h2> : ""}
       {props.subtitle ? <h3>{props.subtitle}</h3> : ""}
       {props.info ? <p>{props.info}</p> : ""}

@@ -27,16 +27,16 @@ export default function Navbar(props) {
           className={`${!clicked ? "nav-menu" : "nav-menu nav-menu_visible"}`}
         >
           <li className="nav-menu-item">
-            <a className="nav-menu-link">Home</a>
+            <a href={props.home} className="nav-menu-link">Home</a>
           </li>
           <li className="nav-menu-item">
-            <a className="nav-menu-link">Proyectos</a>
+            <a href={props.projects} className="nav-menu-link">Proyectos</a>
           </li>
           <li className="nav-menu-item">
             <a className="nav-menu-link">Mas sobre mi</a>
           </li>
           <li className="nav-menu-item">
-            <a className="nav-menu-link">Contacto</a>
+            <a href={props.contact} className="nav-menu-link">Contacto</a>
           </li>
           <li className="nav-menu-item">
             <a href="https://drive.google.com/file/d/1Yn6DRmrvu1zjo-cM-NAfAYm7yyAcLFBV/view?usp=sharing" className="nav-menu-link nav-menu-link_active" target="_blank">MI CV</a>
