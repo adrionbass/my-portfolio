@@ -50,6 +50,7 @@ export default function Navbar(props) {
 }
 
 const Header = styled.header`
+z-index: 1;
   background-color: #010108;
   height: 80px;
   position: fixed;

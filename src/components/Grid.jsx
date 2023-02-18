@@ -84,6 +84,7 @@ const Item = styled.div`
     }
   }
   .img-project {
+    ${'' /* z-index: 0; */}
     width: 275px;
   }
 
