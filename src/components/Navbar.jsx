@@ -69,6 +69,7 @@ const Nav = styled.nav`
   margin: 0 auto;
   .logo {
     font-size: 30px;
+    letter-spacing: 5px;
     font-weight: bold;
     padding: 0 40px;
     line-height: 80px;
