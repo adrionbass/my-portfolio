@@ -3,7 +3,7 @@ import Grid from "./Grid";
 import gitHub from "../assets/github-logo2.png";
 import webDeploy from "../assets/deploy.png";
 
-export default function Scaffold(props) {
+export default (props) => {
   let repo = [
     {
       name: "Github",
@@ -28,13 +28,13 @@ export default function Scaffold(props) {
       {props.repo ? <Grid items={repo} /> : ""}
     </Section>
   );
-}
+};
 const Section = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  ${'' /* text-align: left; */}
+  ${"" /* text-align: left; */}
   margin-bottom: 20px;
 
   img {
@@ -56,7 +56,7 @@ const Section = styled.section`
     width: 250px;
   }
   p {
-    padding: 0 10px 5px 10px ;
+    padding: 0 10px 5px 10px;
   }
   @media (max-width: 760px) {
     p {

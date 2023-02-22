@@ -7,7 +7,7 @@ import hambBtnUrl from "../assets/white-bars-hamb-btn.png";
   crossorigin="anonymous"
 ></link>;
 
-export default function Navbar(props) {
+export default (props) => {
   const [clicked, setClicked] = useState(false);
 
   const hambClick = () => {
@@ -24,33 +24,46 @@ export default function Navbar(props) {
         </button>
 
         <ul
-          className={`${!clicked ? "nav-menu"
-            : "nav-menu nav-menu_visible"}`}
-            onClick={hambClick}
+          className={`${!clicked ? "nav-menu" : "nav-menu nav-menu_visible"}`}
+          onClick={hambClick}
         >
           <li className="nav-menu-item">
-            <a href={props.home} className="nav-menu-link">Home</a>
+            <a href={props.home} className="nav-menu-link">
+              Home
+            </a>
           </li>
           <li className="nav-menu-item">
-            <a href={props.link2} className="nav-menu-link">Proyectos</a>
+            <a href={props.link2} className="nav-menu-link">
+              Proyectos
+            </a>
           </li>
           <li className="nav-menu-item">
-            <a href={props.link3} className="nav-menu-link">Mas sobre mi</a>
+            <a href={props.link3} className="nav-menu-link">
+              Mas sobre mi
+            </a>
           </li>
           <li className="nav-menu-item">
-            <a href={props.link4} className="nav-menu-link">Contacto</a>
+            <a href={props.link4} className="nav-menu-link">
+              Contacto
+            </a>
           </li>
           <li className="nav-menu-item">
-            <a href={props.lastBtn} className="nav-menu-link nav-menu-link_active" target="_blank">MI CV</a>
+            <a
+              href={props.lastBtn}
+              className="nav-menu-link nav-menu-link_active"
+              target="_blank"
+            >
+              MI CV
+            </a>
           </li>
         </ul>
       </Nav>
     </Header>
   );
-}
+};
 
 const Header = styled.header`
-z-index: 1;
+  z-index: 1;
   background-color: #010108;
   height: 80px;
   position: fixed;

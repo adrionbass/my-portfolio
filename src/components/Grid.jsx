@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import Scaffold from "./Scaffold";
 
-export default function Grid(props) {
+export default (props) => {
   const Items = props.items;
 
   const isProjectGallery = Items.every(function (item) {
@@ -51,7 +51,7 @@ export default function Grid(props) {
       )}
     </>
   );
-}
+};
 
 const Container = styled.div`
   padding: 0 0 5px 0;
@@ -84,7 +84,7 @@ const Item = styled.div`
     }
   }
   .img-project {
-    ${'' /* z-index: 0; */}
+    ${"" /* z-index: 0; */}
     width: 275px;
   }
 
