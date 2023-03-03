@@ -34,7 +34,7 @@ const More = [
         {
         "name":"FifthImg",
         "img_path": img5,
-        "desc":"Trabajar de DJ implica leer el público para implementar un repertorio acorde para divertirse en la pista de baile sin decirte nada.",
+        "desc":"Trabajar de DJ implica leer el público para implementar un repertorio acorde a lo que quieren para divertirse en la pista de baile sin decirte nada.",
         "id":"05ma",
     },
 ]
