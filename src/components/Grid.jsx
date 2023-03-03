@@ -12,10 +12,6 @@ export default (props) => {
     return !item.hasOwnProperty("url");
   });
 
-  const isRepoUrl = Items.every(function (item) {
-    return item.hasOwnProperty("repo");
-  });
-
   return (
     <>
       {isProjectGallery ? (
@@ -89,24 +85,35 @@ const Item = styled.div`
   }
 
   .img-project:hover {
-    opacity: 0.8;
+    ${'' /* opacity: 0.8; */}
   }
 
   img {
-    cursor: pointer;
+    ${'' /* cursor: pointer; */}
   }
 
   @media (max-width: 760px) {
-    padding: 0 10px;
+    padding: 0;
     .img-project {
       width: 90%;
     }
-  }
-  @media (max-width: 320px) {
-    padding: 0 10px;
     .tech {
       height: 30px;
       width: auto;
+      padding: 0 10px;
+    }
+    .ctt {
+      height: 30px;
+      width: auto;
+      padding: 0 7px;
+    }
+  }
+  @media (max-width: 320px) {
+    ${'' /* padding: 0 10px; */}
+    .tech {
+      height: 30px;
+      width: auto;
+      padding: 0 10px;
     }
     .ctt {
       height: 25px;

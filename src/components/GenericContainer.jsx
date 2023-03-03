@@ -13,8 +13,8 @@ export default (props) => {
   justify-content: center;
   align-items: center;
   p {
-    margin: 0;
-    padding: 0;
-    text-align: center;
+${'' /*     margin: 0;
+    padding: 0; */}
+    ${'' /* text-align: center; */}
   }
 `;

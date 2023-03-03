@@ -14,11 +14,16 @@ const Row = styled.article`
   align-items: center;
   width: 70%;
 
-  .img-perf {
+  img {
     width: 230px;
     height: auto;
+    ${'' /* SI BIEN ACÁ APLICO UNA MEDIDA ESTÁNDAR PARA IMÁGENES,
+    LUEGO SE APLICAN MEDIDAS ESPECÍFICAS DEPENDIENDO EL TIPO DE
+    COMPONENTE, POR EJEMPLO IMAGEN DE TECNOLOGÍAS O CONTACTO...; */}
+  }
+
+  .img-perf {
     border-radius: 50%;
-    background-color: azure;
   }
 
   @media (max-width: 760px) {

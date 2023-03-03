@@ -9,8 +9,11 @@ import MyDevLang from "./utils/MyDevLang";
 import Social from "./utils/Social";
 import Scaffold from "./components/Scaffold";
 import Projects from "./utils/projects/Projects";
+import Slider from "./components/Slider";
+import MoreAboutMe from "./utils/More";
 import Navbar from "./components/Navbar";
 import GenericContainer from "./components/GenericContainer";
+
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -32,7 +35,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           info={
             <p>
               Si algo requiere de creatividad, seguramente me gusta, por
-              ejemplo, las artes... Aunque de ellas mis favoritas son la música
+              ejemplo, las artes. Y de ellas mis favoritas son la música
               y la programación. Bienvenidos a mi portfolio! ~EN CONSTRUCCIÓN~
             </p>
           }
@@ -46,18 +49,9 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Grid items={Projects} />
     </Scaffold>
 
-    <Scaffold id="more-info" title="MAS SOBRE MI">
+    <Scaffold id="more-info" title="+SOBRE MI">
       <GenericContainer>
-      <p>
-          Asi es, dije que considero a la programación como un arte, y puedo
-          demostrarlo. Agregar imágenes. Lorem ipsum dolor sit amet, consectetur
-          adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-          magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-          irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
-          fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-          sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
+        <Slider items={MoreAboutMe} />
       </GenericContainer>
     </Scaffold>
 
