@@ -28,7 +28,7 @@ const More = [
     {
         "name":"FourthImg",
         "img_path": img4,
-        "desc":"La docencia te acostumbra a abordar temáticas transversalizando saberes desde varias disciplinas, y a explicarlas desde distintas perspectivas en un proceso de aprendizaje contínuo.",
+        "desc":"La docencia te acostumbra a abordar temáticas desde saberes interdisciplinarios; también a explicarlas desde distintas perspectivas, en un proceso de aprendizaje contínuo.",
         "id":"04ma",
     },
         {
