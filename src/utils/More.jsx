@@ -10,7 +10,7 @@ const More = [
     {
         "name":"FirstImg",
         "img_path": img1,
-        "desc":"En la foto, mi mascota, Cenizas. Me acompañaba un día hace mas de un año cuando preparaba el material para la prueba de un trabajo: Programación para niños. Click en Cenizas.",
+        "desc":"En la foto, mi mascota, Cenizas. Ese día hace mas de un año, me acompañaba mientras yo preparaba el material para la prueba de un trabajo: Programación para niños. Click en Cenizas.",
         "id":"01ma",
     },
     {
