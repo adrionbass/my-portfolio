@@ -34,9 +34,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
           subtitle="Front-end dev"
           info={
             <p>
-              Si algo requiere de creatividad, seguramente me gusta, por
-              ejemplo, las artes. Y de ellas mis favoritas son la música
-              y la programación. Bienvenidos a mi portfolio.
+              Si algo requiere del uso de creatividad, seguramente me gusta, por
+              ejemplo, las artes, o la programación. Bienvenidos a mi portfolio.
             </p>
           }
         >
