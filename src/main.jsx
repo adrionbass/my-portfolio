@@ -11,6 +11,7 @@ import Scaffold from "./components/Scaffold";
 import Projects from "./utils/projects/Projects";
 import Slider from "./components/Slider";
 import MoreAboutMe from "./utils/More";
+import Skills from "./utils/Skills";
 import Navbar from "./components/Navbar";
 import GenericContainer from "./components/GenericContainer";
 
@@ -52,6 +53,10 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <GenericContainer>
         <Slider items={MoreAboutMe} />
       </GenericContainer>
+      
+    </Scaffold>
+    <Scaffold subtitle="Otros Skills">
+    <Grid items={Skills} />
     </Scaffold>
 
     <Scaffold id="ctt" title="CONTACTO">
