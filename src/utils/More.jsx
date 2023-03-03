@@ -10,31 +10,31 @@ const More = [
     {
         "name":"FirstImg",
         "img_path": img1,
-        "desc":"Así es, considero a la programación como un arte, y puedo explicarlo, pero mejor si antes comento algunas otras cosas... En la foto: Cenizas.",
+        "desc":"Así es, considero a la programación como un arte, y puedo explicarlo, pero quizás mejor si antes comento otras cosas sobre mi. En la foto: Mi mascota, Cenizas. Click en Cenizas.",
         "id":"01ma",
     },
     {
         "name":"SecondImg",
         "img_path": img2,
-        "desc":"Sé trabajar en equipo, suelo empatizar con las demas personas por ejemplo, explicando conceptos o situaciones, y aunque aveces no me sea fácil, puedo leer a los demás, incluso en grupo. Desde mi ventana se ve éste lago",
+        "desc":"A continuación cuento cómo fue que aprendí a trabajar en equipo, a empatizar y leer a los demás. Desde mi ventana se ve éste lago.",
         "id":"02ma",
     },
     {
         "name":"ThirdImg",
         "img_path": img3,
-        "desc":"Una de las cosas que más valoro de todos estos años de bandas de rock, es haber aprendido a construir escuchando opiniones de los demás miembros del grupo.",
+        "desc":"Una de las cosas que más valoro de todos estos años de bandas de rock, es haber aprendido a componer en conjunto, compartiendo opiniones con otros miembros del grupo.",
         "id":"03ma",
     },
     {
         "name":"FourthImg",
         "img_path": img4,
-        "desc":"La docencia me enseñó a abordar temáticas transversalizando saberes desde varias disciplinas, a explicar desde distintas perspectivas; y a que el proceso de aprendizaje es continuo.",
+        "desc":"La docencia acostumbra a abordar temáticas transversalizando saberes desde varias disciplinas, y a explicarlas desde distintas perspectivas en un proceso de aprendizaje contíuo.",
         "id":"04ma",
     },
         {
         "name":"FifthImg",
         "img_path": img5,
-        "desc":"En la pista de baile si o si hay que leer el público para implementar un repertorio acorde a lo que quieren para divertirse sin decirte nada.",
+        "desc":"Trabajar de DJ implica leer el público para implementar un repertorio acorde para divertirse en la pista de baile sin decirte nada.",
         "id":"05ma",
     },
 ]

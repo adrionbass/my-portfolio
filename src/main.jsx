@@ -36,7 +36,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <p>
               Si algo requiere de creatividad, seguramente me gusta, por
               ejemplo, las artes. Y de ellas mis favoritas son la música
-              y la programación. Bienvenidos a mi portfolio! ~EN CONSTRUCCIÓN~
+              y la programación. Bienvenidos a mi portfolio.
             </p>
           }
         >
