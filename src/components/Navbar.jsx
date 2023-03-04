@@ -67,7 +67,7 @@ const Header = styled.header`
   background-color: #010108;
   height: 80px;
   position: fixed;
-  width: 100%;
+  width: 100vw;
   top: 0;
   left: 0;
   @media (max-width: 768px) {
@@ -147,7 +147,7 @@ const Nav = styled.nav`
       position: fixed;
       letf: 0;
       top: 60px;
-      width: 100%;
+      width: 100vw;
       padding: 20px 0;
       height: calc(100% - 60px);
       overflow-y: auto;

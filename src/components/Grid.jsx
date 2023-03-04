@@ -1,5 +1,7 @@
 import styled from "styled-components";
 import Scaffold from "./Scaffold";
+import Modal from "./Modal";
+import { useState } from "react";
 
 export default (props) => {
   const Items = props.items;
@@ -11,11 +13,28 @@ export default (props) => {
   const isTech = Items.every(function (item) {
     return !item.hasOwnProperty("url");
   });
+  const [modalState, setModalState] = useState(false);
+  const[projectName, setProjectName] = useState(null);
+  const [projectDesc, setProjectDesc] = useState(null);
+
+  
+
+
+
+  const handleClick = (item) => {
+    setProjectName(item.name);
+    setProjectDesc(item.description);
+    setModalState(!modalState);
+  };
 
   return (
     <>
       {isProjectGallery ? (
         <ProjectGrid>
+          <Modal state={modalState} setState={setModalState}>
+            <h3>{projectName}</h3>
+            <p>{projectDesc}</p>
+          </Modal>
           {Items.map((item) => (
             <Item key={item.id}>
               <Scaffold
@@ -24,8 +43,12 @@ export default (props) => {
                 repo={item.repo}
                 url={item.url}
               >
-                <img src={item.img_path} className="img-project" />
-                {/* {item.repo ? <p>{item.repo}</p> : ""} */}
+                
+                <img
+                  src={item.img_path}
+                  className="img-project"
+                  onClick={() => handleClick(item)}
+                />
               </Scaffold>
             </Item>
           ))}
@@ -80,16 +103,16 @@ const Item = styled.div`
     }
   }
   .img-project {
-    ${"" /* z-index: 0; */}
+    cursor:pointer;
     width: 275px;
   }
 
   .img-project:hover {
-    ${'' /* opacity: 0.8; */}
+    opacity: 0.8;
   }
 
   img {
-    ${'' /* cursor: pointer; */}
+    ${"" /* cursor: pointer; */}
   }
 
   @media (max-width: 760px) {
@@ -109,7 +132,7 @@ const Item = styled.div`
     }
   }
   @media (max-width: 320px) {
-    ${'' /* padding: 0 10px; */}
+    ${"" /* padding: 0 10px; */}
     .tech {
       height: 30px;
       width: auto;

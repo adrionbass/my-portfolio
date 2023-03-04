@@ -21,7 +21,7 @@ import calculeitor from "./calculator.jpg";
 const Projects = [
   {
     name: "Movies catalog",
-    description: "#REACT #Responsive #Hooks #API #CSS-Grid",
+    description: "Catálogo de películas. API: https://api.themoviedb.org - #Hooks #Form #CssGrid #CssModule",
     technologies: [
       {
         img_path: ReactIcon,
@@ -40,7 +40,7 @@ const Projects = [
   },
   {
     name: "Tour & Adventures site",
-    description: "#CSS #HTML #JAVASCRIPT #Responsive",
+    description: "Website responsive estándar de viajes y turismo, con botón Scroll Up y Hamb-menu.",
     technologies: [
       {
         img_path: JavaScriptIcon,
@@ -59,7 +59,7 @@ const Projects = [
   },
   {
     name: "Tic Tac Toe",
-    description: "#REACT #HOOKS #CssKeyframeAnimations #JAVASCRIPT",
+    description: "Ta Te Ti o Tic Tac Toe clásico con puntaje, reinicio de partida y/o de turno, y animaciones CSS #animation #keyframes",
     technologies: [
       {
         img_path: ReactIcon,
@@ -78,7 +78,7 @@ const Projects = [
   },
   {
     name: "Image browser",
-    description: "#REACT #Responsive #Hooks #API #CSS-Grid",
+    description: "Buscador de imágenes responsive que usa la api de unsplash.com, y muestra los resultados organizados con CSS grid-column-start y grid-row-start",
     technologies: [
       {
         img_path: ReactIcon,
@@ -95,7 +95,7 @@ const Projects = [
     repo: "https://github.com/adrionbass/react-imagebrowser/",
     id: "04proj",
   },
-  {
+  /* {
     name: "Compound interest calculator",
     description:
       "#REACT #Yup #Formik #Hooks #StyledComponents - Calculates the balance of an amount of money accumulated during a certain period (years), considering the initial and monthly deposit, and the interest rate. It includes field validations, by requirement, by maximum and minimum, and by format with Yup, Formik. Styles: styled.",
@@ -121,7 +121,7 @@ const Projects = [
   {
     name: "Categories filter",
     description:
-      "#REACT #HOOKS #JAVASCRIPT #CSS - Small project that filters categories with conditionals and useState hooks",
+      "Ejemplo de sitio con filtro de búsqueda por categoría.",
     technologies: [
       {
         img_path: ReactIcon,
@@ -164,7 +164,7 @@ const Projects = [
     url: "https://adrionbass.github.io/react-calculator/",
     repo: "https://github.com/adrionbass/react-calculator/",
     id: "07proj",
-  },
+  }, */
 ];
 
 export default Projects;
