@@ -22,7 +22,7 @@ import calculeitor from "./calculator.jpg";
 const Projects = [
   {
     name: "Palmers of Punk-rock",
-    description: "Sitio oficial de la banda Palmers of Punk-Rock",
+    description: "Website responsive oficial de la banda Palmers of Punk-Rock hecho en React con styled-components desde 0: componentes reutilizados a lo largo de todo el sitio y galería de imágenes que se carga de manera aleatoria cada vez que se actualiza la página.",
     technologies: [
       {
         img_path: ReactIcon,
