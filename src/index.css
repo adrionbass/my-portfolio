@@ -16,6 +16,10 @@
   -webkit-text-size-adjust: 100%;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
   color: whitesmoke;
   background: radial-gradient(circle at bottom, #0e0b2a, #010108 90%);

@@ -5,6 +5,7 @@ import CSSicon from "./lang-icons/css3-alt.svg";
 import HTMLicon from "./lang-icons/html5.svg";
 
 /* PROJECT IMG */
+import palmers from "./palmers.jpg"
 import movieCatalag from "./moviecatalog.jpg";
 import tourAdventure from "./tour.jpg";
 import ttt from "./tictactoe.jpg";
@@ -19,6 +20,25 @@ import calculeitor from "./calculator.jpg";
 
 
 const Projects = [
+  {
+    name: "Palmers of Punk-rock",
+    description: "Sitio oficial de la banda Palmers of Punk-Rock",
+    technologies: [
+      {
+        img_path: ReactIcon,
+      },
+      {
+        img_path: CSSicon,
+      },
+      {
+        img_path: HTMLicon,
+      },
+    ],
+    img_path: palmers,
+    url: "https://adrionbass.github.io/react-palmers/",
+    repo: "https://github.com/adrionbass/react-palmers/",
+    id: "00proj",
+  },
   {
     name: "Movies catalog",
     description: "Catálogo de películas. API: https://api.themoviedb.org - #Hooks #Form #CssGrid #CssModule",

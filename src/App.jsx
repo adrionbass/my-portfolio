@@ -22,7 +22,7 @@ export default () => {
         link2="#projects"
         link3="#more-info"
         link4="#ctt"
-        lastBtn="https://drive.google.com/file/d/1Yn6DRmrvu1zjo-cM-NAfAYm7yyAcLFBV/view?usp=sharing"
+        lastBtn="https://drive.google.com/file/d/1Pow_EQyY2pPmEAtxD08hpJY5shabQ7Nu/view?usp=share_link"
       />
       <Hero>
         <Card id="home" name="ADRIEL MIÑO">
