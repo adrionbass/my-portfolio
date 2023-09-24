@@ -5,7 +5,8 @@ import CSSicon from "./lang-icons/css3-alt.svg";
 import HTMLicon from "./lang-icons/html5.svg";
 
 /* PROJECT IMG */
-import palmers from "./palmers.jpg"
+import palmers from "./palmers.jpg";
+import portfolio from "./portfolio.jpg";
 import movieCatalag from "./moviecatalog.jpg";
 import tourAdventure from "./tour.jpg";
 import ttt from "./tictactoe.jpg";
@@ -22,7 +23,7 @@ import calculeitor from "./calculator.jpg";
 const Projects = [
   {
     name: "Palmers of Punk-rock",
-    description: "Website responsive oficial de la banda Palmers of Punk-Rock hecho en React con styled-components desde 0: componentes reutilizados a lo largo de todo el sitio y galería de imágenes que se carga de manera aleatoria cada vez que se actualiza la página.",
+    description: "Website responsive oficial de la banda Palmers of Punk-Rock con galería de imágenes que se carga de manera aleatoria cada vez que se actualiza la página. Basado en mi portfolio. #React #Vite #Styled-components",
     technologies: [
       {
         img_path: ReactIcon,
@@ -38,6 +39,25 @@ const Projects = [
     url: "https://adrionbass.github.io/react-palmers/",
     repo: "https://github.com/adrionbass/react-palmers/",
     id: "00proj",
+  },
+  {
+    name: "My portfolio",
+    description: "Mi propio portfolio, es, sin dudas mi proyecto mas completo, ya que no utilicé ningún template. Utilicé React con Vite, y Styled-components al igual que en otros trabajos. La filosofía de componente 'scaffold' que tomé de Flutter, en todo el sitio, como contenedor genérico para estructurar secciones generales o interiores. #React #Vite #Styled-components",
+    technologies: [
+      {
+        img_path: ReactIcon,
+      },
+      {
+        img_path: CSSicon,
+      },
+      {
+        img_path: HTMLicon,
+      },
+    ],
+    img_path: portfolio,
+    url: "https://adrionbass.github.io/my-portfolio/",
+    repo: "https://github.com/adrionbass/my-portfolio/",
+    id: "00bproj",
   },
   {
     name: "Movies catalog",
