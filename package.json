@@ -1,13 +1,15 @@
 {
   "name": "portfolio",
   "private": true,
+  "homepage": "https://adrionbass.github.io/my-portfolio/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build",
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^5.0.0",
